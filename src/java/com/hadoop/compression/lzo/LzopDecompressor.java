@@ -33,7 +33,7 @@ public class LzopDecompressor extends LzoDecompressor {
    * supported by lzop).
    */
   public LzopDecompressor(int bufferSize) {
-    super(LzoDecompressor.CompressionStrategy.LZO1X_SAFE, bufferSize);
+    super(LzoDecompressor.CompressionStrategy.LZO1X, bufferSize);
   }
 
   /**
